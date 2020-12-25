@@ -1,5 +1,6 @@
 html{
     box-sizing: border-box;
+    
 }
 *,
 *::before,
@@ -24,6 +25,7 @@ body{
     font-size: 15px;
     line-height: 24px;
     color: $text;
+    overflow-x: hidden;
 }
 
 .container{
@@ -68,4 +70,13 @@ body{
         color: $green;
         font-size: 14px;
     }
+}
+.page{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.footer{
+    margin-top: auto;
 }

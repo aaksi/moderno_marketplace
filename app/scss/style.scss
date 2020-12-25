@@ -85,6 +85,7 @@
     }
 }
 .basket{
+    margin-right: 20px;
     span{
         background-color: $green;
     }
@@ -99,7 +100,6 @@
     }
 }
 .user{
-    margin-left: 20px;
     margin-right: 25px;
     padding-right: 20px;
     position: relative;
@@ -180,6 +180,7 @@
     height: 0;
     overflow: hidden;
     transition: all 0.3s;
+    z-index: 1;
 }
 .basket__box,
 .notification__box,
@@ -290,15 +291,20 @@
 .icons-color::before{
     color: $tomato;
 }
+.header__btn-menu,
+.menu___btn{
+    display: none;
+}
 // .menu{
     
 // }
-.menu__list{
+.menu{
     display: flex;
     align-items: center;
     height: 60px;
+}
+.menu__list{
     li{
-       
         display: inline-block;
         & + li{
             margin-left: 30px;
@@ -789,3 +795,5 @@
 
 }
 // end footer 
+
+@import "media";

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
+ <div class="page">
     <header class="header">
         <div class="header__top">
             <div class="container">
@@ -22,8 +23,8 @@
                         Talk to an expert:
                         <a class="header__phone" href="tel:61383766284">+61 3 8376 6284</a>
                     </div>
-                    <div class="header__box">
-                        <div class="notification__box">
+                    <div class="header__box ">
+                        <div class="notification__box header__btn-login--off">
                             <a class="header__circle active notification icon-bell-o" href="#"><span>8</span></a>
                             <div class="circle__menu  notification__menu">
                                 <a href="#" class="circle__item icon-bell-o icons-color">
@@ -49,7 +50,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="message__box">
+                        <div class="message__box header__btn-login--off">
                             <a class="header__circle active message icon-envelope-o " href="#"><span>5</span></a>
                             <div class="circle__menu message__menu">
                                 <a href="#" class="circle__item icon-envelope-o icons-color ">
@@ -89,7 +90,7 @@
                                         <div class="circle__info-price">$59</div>
                                     </div>
                                 </div>
-                                <div class="circle__item">
+                                <div class="circle__item ">
                                     <img class="circle__images" src='images/content/basket.jpg' alt="">
                                     <div class="circle__info">
                                         <div class="circle__info-name">Grand Ballet</div>
@@ -108,7 +109,7 @@
                             </div>
                         </div>
                         <div class="user__box">
-                            <a class="user" href="#">
+                            <a class="user header__btn-login--off" href="#">
                                <div class="user__inner">
                                     <div class="user__images">
                                         <img src="images/content/user-avatar.jpg" alt="">
@@ -132,16 +133,22 @@
                                 </ul>
                             </div>
                         </div>
-                        <a class="header__btn header__btn-login header__btn-login--off" href="#">Login</a>
-                        <a class="header__btn header__btn-logout header__btn-login--on" href="#">Logout</a>
-                        <a class="header__btn header__btn-register header__btn-login--off" href="#">Register</a>
+                        <a class="header__btn header__btn-login" href="#">Login</a>
+                        <a class="header__btn header__btn-logout header__btn-login--off" href="#">Logout</a>
+                        <a class="header__btn header__btn-register " href="#">Register</a>
                     </div>
+                    <div class="header__btn-menu icon-user"></div>
                 </div>
             </div> 
         </div>
         <div class="header__menu">
             <div class="container">
                 <nav class="menu">
+                    <div class="menu__btn">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
                     <ul class="menu__list">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
@@ -157,7 +164,8 @@
                 </nav>
             </div>
         </div>
-    </header>
+    </header> 
+   
 
     <section class="search" style="background-image: url('images/search-bg.jpg');">
         <div class="container">
@@ -728,7 +736,7 @@
         <div class="footer__content">
             <div class="container">
                 <div class="footer__inner">
-                    <div class="footer__col">
+                    <div class="footer__col footer__col-adress">
                         <div class="footer__col-title">About Company</div>
                         <div class="footer__col-text">Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus. </div>
                         <div class="footer__info">PO Box 16122 Collins Street West Victoria 8007 Australia</div>
@@ -754,7 +762,7 @@
                             <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
-                    <div class="footer__col">
+                    <div class="footer__col footer__col-social">
                         <div class="footer__col-title">Follow Us On</div>
                         <ul class="footer__social-link">
                             <li><a class="link-facebook" href="#"></a></li>
@@ -780,7 +788,8 @@
             </div>
         </div>
     </footer>
-
+    
+ </div>
 
 
 
