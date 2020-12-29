@@ -326,6 +326,7 @@
     width: 100%;
     padding-top: 90px;
     padding-bottom: 100px;
+    display: none;
 }
 .login__title{
     text-align: center;
@@ -764,7 +765,7 @@
 // end author
 // start tutorial 
 .tutorial{
-    padding: 70px 0 120px;
+    padding: 70px 0 0;
     &__inner{
         display: flex;
         justify-content: space-between;
