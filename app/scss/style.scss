@@ -794,6 +794,7 @@
 // start footer 
 .footer{
     background-color: $bg;
+    margin-top: 150px;
     &__inner{
         display: flex;
         justify-content: space-between;
@@ -1290,8 +1291,66 @@
         font-weight: 500;
     }
 }
-
-
 // end product-one
+
+// start page-404 
+.page-404{
+    &__wrapper{
+        border: 1px solid #dcdcdc;
+        background-color: #fff; 
+    }
+    &__head{
+        font-size: 24px;
+        color: #444;
+        font-weight: 500;
+        padding: 23px 27px;
+        border-bottom: 1px solid #dcdcdc;
+    }
+    &__inner{
+        text-align: center;
+        background-color: $green;
+        color: #fff;
+    }
+    &__404{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        font-size: 300px;
+        color: #fff;
+        padding-top: 70px;
+        padding-bottom: 20px;
+        line-height: 300px;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            background-image: url('../images/man-404.png');
+            width: 150px;
+            height: 292px;
+            margin-left: 20px;
+        }
+    }
+    &__title{
+        margin-bottom: 30px;
+        font-weight: 300;
+        font-size: 30px;
+        
+    }
+    &__text{
+        font-size: 18px;
+        max-width: 501px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    &__link{
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 20px 30px 16px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+}
+// end page-404 
 
 @import "media";
